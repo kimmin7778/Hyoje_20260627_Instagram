@@ -44,7 +44,7 @@ export default function Sidebar({ currentTheme, toggleTheme, onCreateClick, acti
               onClick={() => setActiveTab('profile')}
             >
               <img
-                src="/images/man.png"
+                src="images/man.png"
                 alt="My Profile"
                 className="sidebar-profile-img"
               />
@@ -84,7 +84,7 @@ export default function Sidebar({ currentTheme, toggleTheme, onCreateClick, acti
         </button>
         <button onClick={() => setActiveTab('profile')}>
           <img
-            src="/images/man.png"
+            src="images/man.png"
             alt="My Profile"
             className="sidebar-profile-img"
             style={{ width: 24, height: 24 }}

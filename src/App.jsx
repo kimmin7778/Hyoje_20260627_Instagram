@@ -7,20 +7,20 @@ import FeedPost from './components/FeedPost';
 import { Camera, Search, Heart, Send, Settings, Grid, Award, Bookmark, User, PlusCircle } from 'lucide-react';
 
 const INITIAL_STORIES = [
-  { id: 1, username: 'sara_w', avatar: '/images/woman.png', storyImage: '/images/img01.png', timeAgo: '1시간 전', seen: false },
-  { id: 2, username: 'johndoe', avatar: '/images/man.png', storyImage: '/images/img02.jpg', timeAgo: '2시간 전', seen: false },
-  { id: 3, username: 'elizabeth', avatar: '/images/woman.png', storyImage: '/images/img03.jpg', timeAgo: '3시간 전', seen: false },
-  { id: 4, username: 'mike_rock', avatar: '/images/man.png', storyImage: '/images/img04.png', timeAgo: '4시간 전', seen: false },
-  { id: 5, username: 'traveler_y', avatar: '/images/woman.png', storyImage: '/images/img05.jpg', timeAgo: '5시간 전', seen: false },
-  { id: 6, username: 'developer_x', avatar: '/images/man.png', storyImage: '/images/img06.jpg', timeAgo: '6시간 전', seen: false },
+  { id: 1, username: 'sara_w', avatar: 'images/woman.png', storyImage: 'images/img01.png', timeAgo: '1시간 전', seen: false },
+  { id: 2, username: 'johndoe', avatar: 'images/man.png', storyImage: 'images/img02.jpg', timeAgo: '2시간 전', seen: false },
+  { id: 3, username: 'elizabeth', avatar: 'images/woman.png', storyImage: 'images/img03.jpg', timeAgo: '3시간 전', seen: false },
+  { id: 4, username: 'mike_rock', avatar: 'images/man.png', storyImage: 'images/img04.png', timeAgo: '4시간 전', seen: false },
+  { id: 5, username: 'traveler_y', avatar: 'images/woman.png', storyImage: 'images/img05.jpg', timeAgo: '5시간 전', seen: false },
+  { id: 6, username: 'developer_x', avatar: 'images/man.png', storyImage: 'images/img06.jpg', timeAgo: '6시간 전', seen: false },
 ];
 
 const INITIAL_POSTS = [
   {
     id: 1,
     username: 'sky_blue',
-    userAvatar: '/images/woman.png',
-    postImage: '/images/img01.png',
+    userAvatar: 'images/woman.png',
+    postImage: 'images/img01.png',
     likes: 1420,
     caption: '오늘 날씨 너무 맑음! 기분이 좋아지는 푸른 하늘 ☀️',
     location: '서울, 대한민국',
@@ -35,8 +35,8 @@ const INITIAL_POSTS = [
   {
     id: 2,
     username: 'nature_lover',
-    userAvatar: '/images/man.png',
-    postImage: '/images/img02.jpg',
+    userAvatar: 'images/man.png',
+    postImage: 'images/img02.jpg',
     likes: 842,
     caption: '초록초록한 숲길 걷기. 자연이 주는 힐링 🌿💚',
     location: '제주도 사려니숲길',
@@ -50,8 +50,8 @@ const INITIAL_POSTS = [
   {
     id: 3,
     username: 'daily_look',
-    userAvatar: '/images/man.png',
-    postImage: '/images/img03.jpg',
+    userAvatar: 'images/man.png',
+    postImage: 'images/img03.jpg',
     likes: 2043,
     caption: '오늘의 데일리룩. 깔끔하고 편하게 🕶️👔',
     location: '성수동, 서울',
@@ -66,8 +66,8 @@ const INITIAL_POSTS = [
   {
     id: 4,
     username: 'good_mood',
-    userAvatar: '/images/woman.png',
-    postImage: '/images/img04.png',
+    userAvatar: 'images/woman.png',
+    postImage: 'images/img04.png',
     likes: 922,
     caption: '바쁜 일상 속 가끔은 여유롭게 커피 한 잔의 행복 ☕🍰',
     location: '합정역 예쁜 카페',
@@ -81,8 +81,8 @@ const INITIAL_POSTS = [
   {
     id: 5,
     username: 'coffee_time',
-    userAvatar: '/images/man.png',
-    postImage: '/images/img05.jpg',
+    userAvatar: 'images/man.png',
+    postImage: 'images/img05.jpg',
     likes: 1120,
     caption: '따뜻한 아메리카노와 독서. 가을 감성 충만 🍂📖',
     location: '북카페',
@@ -94,8 +94,8 @@ const INITIAL_POSTS = [
   {
     id: 6,
     username: 'design_inspiration',
-    userAvatar: '/images/woman.png',
-    postImage: '/images/img06.jpg',
+    userAvatar: 'images/woman.png',
+    postImage: 'images/img06.jpg',
     likes: 3210,
     caption: '모던 인테리어 디자인 트렌드. 화이트와 우드의 조화 🪵🏡',
     location: '인테리어 쇼룸',
@@ -109,8 +109,8 @@ const INITIAL_POSTS = [
   {
     id: 7,
     username: 'street_style',
-    userAvatar: '/images/man.png',
-    postImage: '/images/img07.jpg',
+    userAvatar: 'images/man.png',
+    postImage: 'images/img07.jpg',
     likes: 643,
     caption: '화려한 도시의 밤거리. 네온 사인이 예쁘다 🌃✨',
     location: '도쿄, 일본',
@@ -122,8 +122,8 @@ const INITIAL_POSTS = [
   {
     id: 8,
     username: 'pet_daily',
-    userAvatar: '/images/woman.png',
-    postImage: '/images/img08.jpg',
+    userAvatar: 'images/woman.png',
+    postImage: 'images/img08.jpg',
     likes: 4120,
     caption: '귀여운 길고양이와 눈이 마주쳤다 🐱🐾 심쿵사 유발..',
     location: '골목길 어딘가',
@@ -138,8 +138,8 @@ const INITIAL_POSTS = [
   {
     id: 9,
     username: 'cooking_chef',
-    userAvatar: '/images/man.png',
-    postImage: '/images/img09.jpg',
+    userAvatar: 'images/man.png',
+    postImage: 'images/img09.jpg',
     likes: 1890,
     caption: '오늘 저녁은 직접 만든 수제 파스타! 비주얼 대성공 🍝🍷',
     location: '내 집 주방',
@@ -153,8 +153,8 @@ const INITIAL_POSTS = [
   {
     id: 10,
     username: 'travel_pic',
-    userAvatar: '/images/woman.png',
-    postImage: '/images/img10.jpg',
+    userAvatar: 'images/woman.png',
+    postImage: 'images/img10.jpg',
     likes: 5012,
     caption: '끝없이 펼쳐진 에메랄드빛 바다. 다시 가고 싶다 🌊✈️',
     location: '몰디브',
@@ -178,7 +178,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
 
   // Create Post Form States
-  const [newPostImage, setNewPostImage] = useState('/images/img01.png');
+  const [newPostImage, setNewPostImage] = useState('images/img01.png');
   const [newPostCaption, setNewPostCaption] = useState('');
   const [newPostLocation, setNewPostLocation] = useState('');
 
@@ -296,7 +296,7 @@ export default function App() {
     const newPost = {
       id: posts.length + 1,
       username: 'dongm_coding',
-      userAvatar: '/images/man.png',
+      userAvatar: 'images/man.png',
       postImage: newPostImage,
       likes: 0,
       caption: newPostCaption,
@@ -521,10 +521,10 @@ export default function App() {
             <h2 style={{ fontFamily: 'var(--font-title)', fontWeight: 800, fontSize: '28px' }}>알림</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '16px', backgroundColor: 'var(--card-bg)' }}>
               {[
-                { user: 'minji_love', action: '님이 회원님의 댓글을 좋아합니다.', time: '2시간 전', avatar: '/images/woman.png', postImg: '/images/img01.png' },
-                { user: 'hwan_dev', action: '님이 회원님의 게시물을 좋아합니다.', time: '5시간 전', avatar: '/images/man.png', postImg: '/images/img01.png' },
-                { user: 'sohee_pic', action: '님이 회원님을 팔로우하기 시작했습니다.', time: '1일 전', avatar: '/images/woman.png', button: true },
-                { user: 'june_sports', action: '님이 댓글에 회원님을 언급했습니다.', time: '3일 전', avatar: '/images/man.png', postImg: '/images/img03.jpg' }
+                { user: 'minji_love', action: '님이 회원님의 댓글을 좋아합니다.', time: '2시간 전', avatar: 'images/woman.png', postImg: 'images/img01.png' },
+                { user: 'hwan_dev', action: '님이 회원님의 게시물을 좋아합니다.', time: '5시간 전', avatar: 'images/man.png', postImg: 'images/img01.png' },
+                { user: 'sohee_pic', action: '님이 회원님을 팔로우하기 시작했습니다.', time: '1일 전', avatar: 'images/woman.png', button: true },
+                { user: 'june_sports', action: '님이 댓글에 회원님을 언급했습니다.', time: '3일 전', avatar: 'images/man.png', postImg: 'images/img03.jpg' }
               ].map((noti, idx) => (
                 <div key={idx} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '12px 0', borderBottom: idx < 3 ? '1px solid var(--border-color)' : 'none' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -553,7 +553,7 @@ export default function App() {
             <header style={{ display: 'flex', gap: '80px', padding: '10px 20px', borderBottom: '1px solid var(--border-color)', paddingBottom: '44px' }}>
               <div style={{ flexShrink: 0 }}>
                 <img
-                  src="/images/man.png"
+                  src="images/man.png"
                   alt="dongm_coding"
                   style={{ width: '150px', height: '150px', borderRadius: '50%', objectFit: 'cover', border: '1px solid var(--border-color)', padding: '4px' }}
                 />
@@ -607,10 +607,10 @@ export default function App() {
               ))}
               {/* Default mock post for profile */}
               <div style={{ position: 'relative', width: '100%', paddingBottom: '100%', cursor: 'pointer', overflow: 'hidden' }}>
-                <img src="/images/img03.jpg" alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="images/img03.jpg" alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <div style={{ position: 'relative', width: '100%', paddingBottom: '100%', cursor: 'pointer', overflow: 'hidden' }}>
-                <img src="/images/img05.jpg" alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="images/img05.jpg" alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -651,16 +651,16 @@ export default function App() {
                   outline: 'none'
                 }}
               >
-                <option value="/images/img01.png">img01.png (피드 1 - 푸른 하늘)</option>
-                <option value="/images/img02.jpg">img02.jpg (피드 2 - 초록 숲)</option>
-                <option value="/images/img03.jpg">img03.jpg (피드 3 - 데일리룩)</option>
-                <option value="/images/img04.png">img04.png (피드 4 - 커피 여유)</option>
-                <option value="/images/img05.jpg">img05.jpg (피드 5 - 아메리카노 독서)</option>
-                <option value="/images/img06.jpg">img06.jpg (피드 6 - 모던 쇼룸)</option>
-                <option value="/images/img07.jpg">img07.jpg (피드 7 - 밤거리)</option>
-                <option value="/images/img08.jpg">img08.jpg (피드 8 - 길고양이)</option>
-                <option value="/images/img09.jpg">img09.jpg (피드 9 - 파스타)</option>
-                <option value="/images/img10.jpg">img10.jpg (피드 10 - 에메랄드빛 바다)</option>
+                <option value="images/img01.png">img01.png (피드 1 - 푸른 하늘)</option>
+                <option value="images/img02.jpg">img02.jpg (피드 2 - 초록 숲)</option>
+                <option value="images/img03.jpg">img03.jpg (피드 3 - 데일리룩)</option>
+                <option value="images/img04.png">img04.png (피드 4 - 커피 여유)</option>
+                <option value="images/img05.jpg">img05.jpg (피드 5 - 아메리카노 독서)</option>
+                <option value="images/img06.jpg">img06.jpg (피드 6 - 모던 쇼룸)</option>
+                <option value="images/img07.jpg">img07.jpg (피드 7 - 밤거리)</option>
+                <option value="images/img08.jpg">img08.jpg (피드 8 - 길고양이)</option>
+                <option value="images/img09.jpg">img09.jpg (피드 9 - 파스타)</option>
+                <option value="images/img10.jpg">img10.jpg (피드 10 - 에메랄드빛 바다)</option>
               </select>
             </div>
 

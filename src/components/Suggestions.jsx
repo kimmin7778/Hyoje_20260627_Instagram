@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 export default function Suggestions() {
   const [suggestedUsers, setSuggestedUsers] = useState([
-    { id: 1, username: 'minji_love', relation: '바이브코딩 회원님 추천', avatar: '/images/woman.png', following: false },
-    { id: 2, username: 'hwan_dev', relation: '회원님을 위한 추천', avatar: '/images/man.png', following: false },
-    { id: 3, username: 'sohee_pic', relation: 'Instagram 신규 가입', avatar: '/images/woman.png', following: false },
-    { id: 4, username: 'june_sports', relation: 'johndoe님이 팔로우합니다', avatar: '/images/man.png', following: false },
+    { id: 1, username: 'minji_love', relation: '바이브코딩 회원님 추천', avatar: 'images/woman.png', following: false },
+    { id: 2, username: 'hwan_dev', relation: '회원님을 위한 추천', avatar: 'images/man.png', following: false },
+    { id: 3, username: 'sohee_pic', relation: 'Instagram 신규 가입', avatar: 'images/woman.png', following: false },
+    { id: 4, username: 'june_sports', relation: 'johndoe님이 팔로우합니다', avatar: 'images/man.png', following: false },
   ]);
 
   const toggleFollow = (id) => {
@@ -22,7 +22,7 @@ export default function Suggestions() {
       <div className="current-user-profile">
         <div className="user-meta">
           <img
-            src="/images/man.png"
+            src="images/man.png"
             alt="My Avatar"
             className="user-meta-avatar"
           />
